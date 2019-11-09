@@ -96,18 +96,14 @@ h1, h2, h3, h4, h5,
 
 .site-section {
   padding: 2.5em 0; }
-  @media (min-width: 768px) {
-    .site-section {
-      padding: 5em 0; } }
+ 
   .site-section.site-section-sm {
     padding: 4em 0; }
 
 .site-section-heading {
   position: relative;
   font-size: 2.5rem; }
-  @media (min-width: 768px) {
-    .site-section-heading {
-      font-size: 4rem; } }
+  
   .site-section-heading:after {
     content: "";
     left: 0%;
@@ -135,9 +131,7 @@ h1, h2, h3, h4, h5,
 .site-footer {
   padding: 4em 0;
   background: #333333; }
-  @media (min-width: 768px) {
-    .site-footer {
-      padding: 8em 0; } }
+
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -169,9 +163,7 @@ h1, h2, h3, h4, h5,
 .hover-bg-enlarge {
   overflow: hidden;
   position: relative; }
-  @media (max-width: 991.98px) {
-    .hover-bg-enlarge {
-      height: auto !important; } }
+ 
   .hover-bg-enlarge > div {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -183,10 +175,7 @@ h1, h2, h3, h4, h5,
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
-  @media (max-width: 991.98px) {
-    .hover-bg-enlarge .bg-image-md-height {
-      height: 300px !important; } }
-
+ 
 .bg-image {
   background-size: cover;
   background-position: center center;
@@ -208,13 +197,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 1; }
 
-@media (max-width: 991.98px) {
-  .img-md-fluid {
-    max-width: 100%; } }
 
-@media (max-width: 991.98px) {
-  .display-1, .display-3 {
-    font-size: 3rem; } }
 
 .play-single-big {
   width: 90px;
@@ -599,9 +582,7 @@ h1, h2, h3, h4, h5,
     font-size: 4rem;
     font-weight: 900;
     color: #fff; }
-    @media (max-width: 991.98px) {
-      .site-blocks-cover h1 {
-        font-size: 2rem; } }
+
   .site-blocks-cover p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
@@ -615,9 +596,7 @@ h1, h2, h3, h4, h5,
   .site-blocks-cover .intro-text {
     font-size: 16px;
     line-height: 1.5; }
-  @media (max-width: 991.98px) {
-    .site-blocks-cover .display-1 {
-      font-size: 3rem; } }
+ 
 
 .site-block-subscribe .btn {
   padding-left: 20px;
@@ -727,23 +706,15 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     background-repeat: no-repeat;
     height: 300px; }
-    @media (min-width: 768px) {
-      .podcast-entry .image {
-        width: 300px;
-        height: auto; } }
+    
   .podcast-entry .text {
     width: 100%;
     padding: 40px; }
-    @media (min-width: 768px) {
-      .podcast-entry .text {
-        width: calc(100% - 300px); } }
+    
 
 .mejs__container {
   width: 100% !important; }
 
-@media (max-width: 991.98px) {
-  .display-4 {
-    font-size: 1.8rem; } }
 
 .feature-blocks-1 {
   position: relative;
@@ -811,20 +782,13 @@ h1, h2, h3, h4, h5,
 .site-blocks-vs .bg-image {
   padding-top: 3em;
   padding-bottom: 3em; }
-  @media (min-width: 992px) {
-    .site-blocks-vs .bg-image {
-      padding-top: 5em;
-      padding-bottom: 5em; } }
-
+ 
 .site-blocks-vs .image {
   width: 80px;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 80px;
   flex: 0 0 80px; }
-  @media (max-width: 991.98px) {
-    .site-blocks-vs .image {
-      margin-left: auto !important;
-      margin-right: auto !important; } }
+ 
   .site-blocks-vs .image img {
     border-radius: 50%; }
   .site-blocks-vs .image.image-small {
@@ -948,9 +912,7 @@ h1, h2, h3, h4, h5,
   line-height: 0;
   text-align: center;
   font-size: 25px; }
-  @media (min-width: 768px) {
-    .slide-one-item.home-slider .owl-prev, .slide-one-item.home-slider .owl-next {
-      font-size: 25px; } }
+
   .slide-one-item.home-slider .owl-prev > span, .slide-one-item.home-slider .owl-next > span {
     position: absolute;
     line-height: 0;
@@ -1007,12 +969,7 @@ h1, h2, h3, h4, h5,
       padding: 10px;
       margin-right: 30px;
       position: relative; }
-      @media (min-width: 576px) {
-        .block-12 .text .text-inner {
-          padding: 20px; } }
-      @media (min-width: 768px) {
-        .block-12 .text .text-inner {
-          padding: 30px 40px; } }
+    
       .block-12 .text .text-inner:before {
         position: absolute;
         content: "";
@@ -1247,10 +1204,7 @@ padding:2px;}
 
 .overlap-left {
   margin-left: -100px; }
-  
-  @media (max-width: 991.98px) {
-    .overlap-left {
-      margin-left: 0px; } }
+
 
 .overlap-section {
   margin-top: -100px; }
@@ -1599,37 +1553,3 @@ background-color:#f16821;
 img.img-fluid.mb-4{
 height:100px;
 width:100%;}
-
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-  .timeline .container {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid ##4d4d4d;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #4d4d4d transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
-}
