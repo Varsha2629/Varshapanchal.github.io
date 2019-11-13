@@ -1525,12 +1525,12 @@ position: fixed;
 }
 .person .icon{
     position: relative;
-    width: 75%;
+    width: 60%;
     height: 3em;
     margin: 0 auto;
     text-align: center;
     line-height: 3;
-    font-size: 89px;
+    font-size: 70px;
     border-radius: 50%;
     box-shadow: 0 0 0 0 rgba(0,0,0,0.0);
     margin-bottom: 40px;

@@ -69,6 +69,8 @@
     .site-blocks-cover .display-1 {
       font-size: 3rem; } }
 @media (min-width: 768px) {
+	.site-blocks-cover .row{height: calc(21vh);
+    width: 100%;}
       .podcast-entry .image {
         width: 300px;
         height: auto; } }
