@@ -2,16 +2,17 @@
 /* CSS Document */
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   
   .timeline::after {
   left: 31px;
   }
+ 
   
   /* Full-width containers */
   .timeline .container {
   width: 100%;
-  padding-left: 70px;
+  padding-left: 20px;
   padding-right: 25px;
   }
   
