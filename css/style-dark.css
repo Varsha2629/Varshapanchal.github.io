@@ -1204,10 +1204,11 @@ blockquote span img {
 }
 
 .pt-about .testimonial-item img {
-	width: 80px;
-	margin-right: 20px;
+	width: 90%;
+	height: 250px;
+	/* margin-right: 20px;
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+	border-radius: 50%; */
 }
 
 .pt-about .testimonial-item .content {
